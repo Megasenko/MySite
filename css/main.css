@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+p {
+       font-size: 1.2em;
+}
+ul,ol {
+    width: 90%;
+    margin-left: 5%;
+}
+
+a {
+    color: darkslateblue;
+    text-decoration: none;
+    transition: all .6s ease;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+    transition: all .6s ease;
+}
+
+img {
+    max-width: 35%;
+    height: auto;
+    width: auto \9;
+
+}
+
+
+
+/*Стили для шапки.*/
+
+header {
+    float: left;
+    background: #ffd811;
+    width: 99.4%;
+    padding: 0.3%;
+    border-bottom: 5px solid #59595a;
+}
+
+#reg_auth > a {
+    color: white;
+}
+
+.btn:hover  {
+    border-bottom: 2px solid rgba(217, 91, 72, 1);
+    margin-top: 10px;
+}
+
+.btn:active {
+    border-bottom: 0;
+    margin-top: 12px;
+}
+
+.btn {
+    float: right;
+    margin-right: 7%;
+    margin-top: 8px;
+    border-radius: 10px;
+    padding: 5px 9px;
+    font-size: 1.2em;
+    background-color: rgba(236, 101, 80, 1);
+    text-shadow: #454545 0 0 2px;
+    border-bottom: 4px solid rgba(217, 91, 72, 1);
+    color: white;
+}
+
+/*Меню сайта*/
+
+nav {
+    background-color: white;
+    width: 99.4%;
+    padding: 5px 0.3%;
+    float: left;
+    border-bottom: 2px solid #ebebeb;
+    font-family: 'Pacifico', cursive;
+}
+
+nav a {
+    color: #271ade;
+    font-size: 1.5em;
+    margin-left: 5%;
+
+}
+
+nav a:hover {
+    color: #e8622d
+}
+
+nav a:last-child {
+    margin-right: 15px;
+}
+
+/*.fixed {*/
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*opacity: 0.97;*/
+    /*padding: 3px 0.3%;*/
+/*}*/
+
+/*.fixed a {*/
+    /*font-size: 1.3em;*/
+/*}*/
+
+/*.fixed #search {*/
+    /*font-size: 1.2em;*/
+/*}*/
+
+/*.fixed:hover {*/
+    /*opacity: 1;*/
+/*}*/
+
+#hideMenu {
+    display: inline;
+}
+
+
+#wrapper {
+    /*display: block;*/
+    /*flex-direction: column;*/
+    /*height: 100%;*/
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+}
+
+#content {
+
+    flex: 1 0 auto;
+}
+#main{
+    padding-left: 20px ;
+}
+.img {
+    max-width: 300px;
+    height: 50%;
+    width: auto \9;
+}
+.goods{
+    float: left;
+}
+.content{
+    float: right;
+    padding-right: 20px ;
+
+
+}
+.product {
+
+    margin: 10px 10px 30px 80px;
+
+    float: left;
+}
+.product>img{
+    /*max-width: 20%;*/
+    height: auto;
+    width: 400px ;
+}
+#mail{
+    border: 5px solid silver;
+    width: 50%;
+    height: 50%;
+    color: green;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#logout{
+    text-align: center;
+
+}
+#btnMail{
+    /*font-size: 1.2em;*/
+
+}
+.mega{
+    display: block;
+   text-align: center;
+    height: auto;
+    width: 900px ;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#btnMail .btn{
+    margin-top: 50px;
+}
+#feedback .btn{
+    float: left;
+    margin-left: 8%;
+}
